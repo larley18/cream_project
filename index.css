@@ -1,16 +1,81 @@
-.container-fluid{
+.bg-image{
     background-image: url(./asset/background.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .navbrand{
-    width: 50px;
-    
+    width: 50px; 
+    margin-left: 90px;
 }
 
 #navbar{
-    background-color: rgba(153, 200, 153, 0.7);
-
+    background-color: rgba(153, 200, 153, 0.7); 
     
+}
+
+.ulnav{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+#navitem{
+    display: inline;
+}
+
+.navlink{
+    text-decoration: none;
+    color: white;
+    padding-left: 70px;   
+    font-weight: 700;
+}
+
+ .navlink1{
+    text-decoration: none;
+    color: white;
+    padding-right: 70px;  
+    font-weight: 700;  
+} 
+
+.ulnav1{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    
+}
+
+#parasol{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 250px;
+}
+
+#ranpara{
+color:#fff;
+text-align: center;
+font-size: 25px;
+}
+
+.probut{
+    border: none;
+    background-color: rgba(120, 255, 95,0.8);
+    font-size: 27px;
+    color: #fff;
+    padding: 8px 25px 8px 25px;
+    margin-left: 670px;
+    margin-top: 80px;
+}
+
+#imgapp{
+    width: 100px;
+    margin-top: 160px;
+    margin-left: 420px;
+}
+
+.productdiv{
+    height: 50vh;
+    font-size: 50px;
+
 }
