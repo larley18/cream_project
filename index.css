@@ -60,7 +60,7 @@ font-size: 25px;
 
 .probut{
     border: none;
-    background-color: rgba(120, 255, 95,0.8);
+    background-color: rgba(120, 255, 95,1);
     font-size: 27px;
     color: #fff;
     padding: 8px 25px 8px 25px;
@@ -75,9 +75,187 @@ font-size: 25px;
 }
 
 .productdiv{
-    height: 50vh;
+    height: 200vh;
     font-size: 50px;
+    position: relative;
+    background-color: rgba(199, 207, 181, 0.42);
 
 }
 
-.prod
+#mainpara{
+    position: absolute;
+    top: 70px;
+    left:120px;
+}
+
+
+.productimg{
+    width: 280px;
+    height: 45vh;
+}
+
+.namepara{
+    font-size: 22px;
+}
+
+.img1div{
+    width: 280px;
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+
+.productimg2{
+    width: 280px;
+    height: 42vh;
+}
+
+.img2div{
+    position: absolute;
+    width: 280px;
+    left: 650px;
+    top: 200px;
+}
+
+.img3div{
+    position: absolute;
+    width: 280px;
+    right: 120px;
+    top: 200px;
+}
+
+.img4div{
+    position: absolute;
+    width: 280px;
+    left: 120px;
+    top: 700px;
+}
+
+.img5div{
+    position: absolute;
+    width: 280px;
+    left: 650px;
+    top: 700px;
+}
+
+.img6div{
+    position: absolute;
+    width: 280px;
+    right: 120px;
+    top: 700px;
+}
+
+#butdiv{
+    width: 750px;
+    position: absolute;
+    bottom: 250px;
+    left: 400px;
+    border-bottom: solid 2px rgb(113,113,113);
+
+}
+
+.but1{
+    border: none;
+    background-color: rgba(120, 255, 95,1);
+    font-size: 27px;
+    color: #fff;
+    padding: 8px 25px 8px 25px;
+    margin: 0px 0px 90px 250px;
+}
+
+.attridiv1{
+    width: 250px;
+position: absolute;
+bottom: 100px;
+left: 250px;
+
+}
+
+.attridiv2{
+    width: 250px;
+position: absolute;
+bottom: 100px;
+left: 650px;
+}
+
+.attridiv3{
+    width: 250px;
+position: absolute;
+bottom: 100px;
+right: 250px ;
+}
+
+.attripara{
+    font-size: 20px;
+    text-align: center;
+}
+
+.attripara2{
+    font-size: 13px;
+    color:rgb(113,113,113) ;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45vh;
+  width: 100%;
+   opacity: 0;
+  transition: .5s ease;
+  background-color:rgb(113,113,113);
+}
+
+.overlay2{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 42vh;
+  width: 100%;
+   opacity: 0;
+  transition: .5s ease;
+  background-color:rgb(113,113,113);
+}
+
+.overlaytext{
+    font-size: 20px;
+    color: #fff;
+    background-color:#39672F ;
+  text-align: center;
+  position: absolute;
+  width: 100px;
+  top: 150px;
+  left: 100px;
+  padding: 8px 10px 8px 10px;
+}
+
+.img1div:hover .overlay{
+   opacity: 0.9;
+}
+
+.img2div:hover .overlay2{
+   opacity: 0.9;
+}
+
+.img3div:hover .overlay{
+   opacity: 0.9;
+}
+
+.img4div:hover .overlay{
+   opacity: 0.9;
+}
+
+.img5div:hover .overlay2{
+   opacity: 0.9;
+}
+
+.img6div:hover .overlay{
+   opacity: 0.9;
+}
+
