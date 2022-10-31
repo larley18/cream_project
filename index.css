@@ -260,7 +260,48 @@ right: 250px ;
 }
 
 #socialimg{
-    height: 90vh;
-    width: 65%;
+    height: 105vh;
+    width: 82%;
 }
 
+.entirediv{
+    height:140vh ; 
+    position: relative;
+
+}
+
+.divimg{
+    width : 50%;
+    height: 140vh;
+    position: absolute;
+    padding: 160px 0px 0px 100px ;
+   
+}
+
+.divtext{
+    width:50%;
+     height: 140vh; 
+     position: absolute ; 
+     right: 0px;
+}
+
+#socialpara{
+    font-size: 35px;
+text-align: left;
+padding: 30px;
+margin: 80px 0px 0px 0px;
+line-height: 30px;
+color:rgb(113,113,113) ;
+}
+
+#socialh4{
+font-size: 50px;
+text-align: left ;
+margin-top: 200px;
+padding-left: 5%;
+}
+
+#logoimg{
+    width: 40px;
+    margin: 10px;
+}
