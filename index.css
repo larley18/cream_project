@@ -302,6 +302,31 @@ padding-left: 5%;
 }
 
 #logoimg{
-    width: 40px;
-    margin: 10px;
+    width: 35px;
+    margin: 10px 10px 10px 20px;
+
+}
+
+#socialdiv{
+ margin-top: 40px;
+}
+
+#sociopara{
+    padding-left: 30px;
+}
+
+.stordiv{
+    background-color:rgba(199, 207, 181, 0.42);
+    height: 110vh;
+}
+
+.storh3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.eyeimg{
+  width: 85%;
+  margin: 60px 0px 0px 110px;
 }
