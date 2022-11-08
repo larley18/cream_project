@@ -318,6 +318,7 @@ padding-left: 5%;
 .stordiv{
     background-color:rgba(199, 207, 181, 0.42);
     height: 110vh;
+    position: relative;
 }
 
 .storh3{
@@ -328,5 +329,36 @@ padding-left: 5%;
 
 .eyeimg{
   width: 85%;
-  margin: 60px 0px 0px 110px;
+  position: absolute;
+  left: 115px;
+  top: 20vh;
+}
+
+.eyebut{
+    position: absolute;
+    top: 50vh;
+    right: 650px;
+    background-color: transparent;
+    font-size: 25px;
+    border: 2px solid white;
+    color: #fff;
+    padding: 3px 45px 3px 45px;
+
+}
+
+.eyeoverlay{
+     position: absolute;
+  top: 20vh;
+  bottom: 0;
+  left:115px;
+  right: 0;
+  height: 69vh ;
+  width: 85%;
+   opacity: 0.3;
+  background-color:rgb(113,113,113);
+  
+}
+
+.eyebut:hover{
+    background-color:rgb(113,113,113) ;
 }
