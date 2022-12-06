@@ -352,7 +352,7 @@ padding-left: 5%;
   bottom: 0;
   left:115px;
   right: 0;
-  height: 69vh ;
+  height: 70vh ;
   width: 85%;
    opacity: 0.3;
   background-color:rgb(113,113,113);
@@ -361,4 +361,19 @@ padding-left: 5%;
 
 .eyebut:hover{
     background-color:rgb(113,113,113) ;
+}
+
+
+.owl-image{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.owl-item{
+    height: 40vh;
+    width: 300px;
+}
+
+.owlpara{
+    text-align: center;
 }
