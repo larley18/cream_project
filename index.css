@@ -352,7 +352,7 @@ padding-left: 5%;
   bottom: 0;
   left:115px;
   right: 0;
-  height: 70vh ;
+  height: 71vh ;
   width: 85%;
    opacity: 0.3;
   background-color:rgb(113,113,113);
@@ -364,16 +364,32 @@ padding-left: 5%;
 }
 
 
-.owl-image{
-    border-radius: 50%;
-    width: 100px;
+#fluidcontainer{
+  background-color: rgba(153, 200, 153, 0.7); 
+  height: 70vh;
+  text-align: center;
+  padding-top: 100px;
 }
 
-.owl-item{
-    height: 40vh;
+.owl-image{
+    width: 80px;
+    margin-right: 120px;
+}
+
+#owlimg{
+    border-radius: 50%;
+     height: 12vh;
+    
+}
+
+.item{
     width: 300px;
 }
 
-.owlpara{
-    text-align: center;
+.owl-carousel{
+    margin-top: 100px;
+    padding-right:110px ;
+}
+
+.p5{  color:rgb(113,113,113) ;
 }

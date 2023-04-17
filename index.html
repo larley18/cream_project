@@ -7,8 +7,8 @@
     <title>jnelp</title>
     <link rel="stylesheet" href="index.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="OwlCarousel2-2.3.4\dist\assets\owl.carousel.css">
+<link rel="stylesheet" href="OwlCarousel2-2.3.4\dist\assets\owl.theme.default.css">
 </head>
 <body>
 <div class="container-fluid bg-image" style="height: 100vh ; ">
@@ -195,25 +195,45 @@
   <button class="eyebut"> Watch Video</button>
 </div>
 
-<div>
-  <h3> Our Customers Have Something To Say </h3>
+  <div class="container-fluid" id="fluidcontainer">
+    <h4 style="font-size: 50px; "> Our Customers Have Something To Say </h4>
+    <hr style="border-width:2px; color: black; margin-left: 750px; margin-right: 750px;">
+
 <div class="owl-carousel owl-theme">
+    <div class="item"><p class="p5">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, sed diam nonumy eirmod tekkllmpor
+invidunt ut labore et dole magna </p> 
+<div class="owl-image"> <img src="./asset/woman.jpg" id="owlimg" > </div>
+<h5>MICHEAL JACKSON</h5>
+  </div>
 
-  <div class="owl-item"> <p class="owlpara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p> 
-  <img src="./asset/woman.jpg"  class="owl-image"> 
+  <div class="item"><p class="p5">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, sed diam nonumy eirmod tekkllmpor
+invidunt ut labore et dole magna </p> 
+<div class="owl-image"> <img src="./asset/woman.jpg"  id="owlimg" > </div>
+<h5>MICHEAL JACKSON</h5>
+  </div>
 
-  <div class="owl-item"> <p class="owlpara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p> 
-  <img src="./asset/woman.jpg" class="owl-image"> 
+  <div class="item"><p class="p5">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, sed diam nonumy eirmod tekkllmpor
+invidunt ut labore et dole magna </p> 
+<div class="owl-image"> <img src="./asset/woman.jpg" id="owlimg"  > </div>
+<h5>MICHEAL JACKSON</h5>
+  </div>
 
-  <div class="owl-item"> <p class="owlpara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p> 
-  <img src="./asset/woman.jpg" class="owl-image"> 
+  <div class="item"><p class="p5">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, sed diam nonumy eirmod tekkllmpor
+invidunt ut labore et dole magna </p> 
+<div class="owl-image"> <img src="./asset/woman.jpg"  id="owlimg" > </div>
+<h5>MICHEAL JACKSON</h5>
+  </div>
 
-  <div class="owl-item"> <p class="owlpara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p> 
-  <img src="./asset/woman.jpg" class="owl-image"> 
-
+  <div class="item"><p class="p5">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, sed diam nonumy eirmod tekkllmpor
+invidunt ut labore et dole magna </p> 
+<div class="owl-image"> <img src="./asset/woman.jpg"  id="owlimg" > </div>
+<h5>MICHEAL JACKSON</h5>
+  </div>
+    
+</div>
 </div>
 
-</div>
+
 
 
 
@@ -247,9 +267,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
  <script src="jquery-1.9.1.min.js"></script>
  
-<script src="assets/owl-carousel/owl.carousel.js"></script>
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="OwlCarousel2-2.3.4\dist\owl.carousel.min.js"></script>
 
 
 
@@ -257,30 +276,37 @@
 
 
 <script>
-  $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
-          autoplay: true,
-          loop: true,
-          margin: 10,
-          responsiveClass: true,
-          responsive: {
-            0: {
-              items: 1,
-              nav: false,
-            },
-            600: {
-              items: 1,
-              nav: false,
-            },
-            1000: {
-              items: 4,
-              nav: false,
-              loop: true,
-            },
-          },
-        });
-         });
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    rtl:true,
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:3,
+        },
+    },
+});
+});
 </script>
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
