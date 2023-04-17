@@ -197,8 +197,8 @@
 
   <div class="container-fluid" id="fluidcontainer">
     <h4 style="font-size: 50px; "> Our Customers Have Something To Say </h4>
-    <hr style="border-width:2px; color: black; margin-left: 750px; margin-right: 750px;">
-
+    <hr style="border-width:2px; color: #000000; margin-left: 750px; margin-right: 750px;">
+<div class="carousel-wrapper">
 <div class="owl-carousel owl-theme">
     <div class="item"><p class="p5">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, sed diam nonumy eirmod tekkllmpor
 invidunt ut labore et dole magna </p> 
@@ -230,6 +230,7 @@ invidunt ut labore et dole magna </p>
 <h5>MICHEAL JACKSON</h5>
   </div>
     
+</div>
 </div>
 </div>
 
@@ -280,8 +281,9 @@ $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     rtl:true,
     loop:true,
-    margin:10,
+    margin:15,
     nav:true,
+    navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
     autoplay:false,
     responsive:{
         0:{
