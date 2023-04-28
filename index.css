@@ -397,5 +397,75 @@ padding-left: 5%;
 
 #team{
     background-color: rgb(58,125,87);
-    height: 35vh;
+    height: 40vh;
+    position: relative;
+}
+#togh4{
+    font-size:40px; 
+    color: #ffffff; 
+    text-align: center;
+    padding-top: 70px;
+}
+
+#joinbut{
+    border: none;
+    position: absolute;
+    left: 700px;
+    font-size: 25px;
+    color:rgb(58,125,87) ;
+    padding: 5px 45px 5px 45px;
+    top: 23vh;
+}
+
+#heardiv{
+    background-color: rgb(231,231,231);
+    height: 130vh;
+    position: relative;
+}
+
+#heardh3{
+    font-size: 45px;
+    padding: 60px 0px 0px 150px;
+    font-weight: bolder;
+}
+
+#backimg{
+    width: 25%;
+    background-image: url(./asset/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color:rgb(76,149,125);
+    background-blend-mode: overlay;
+    height:80vh ;
+    position: absolute;
+    left: 150px;
+    top: 220px;
+}
+
+#formimg{
+    width: 40%;
+    background-color: red;
+    height: 80vh;
+    position: absolute;
+    right: 403px;
+    top: 220px;
+}
+
+#backh3{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.conli{
+    margin-top: 50px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.iconli{
+    list-style-type: none;
+    display: inline;
+    margin:12px;
 }
