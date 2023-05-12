@@ -444,8 +444,8 @@ padding-left: 5%;
 
 #formimg{
     width: 40%;
-    background-color: red;
     height: 80vh;
+    background-color: #fff;
     position: absolute;
     right: 403px;
     top: 220px;
@@ -468,4 +468,33 @@ padding-left: 5%;
     list-style-type: none;
     display: inline;
     margin:12px;
+}
+
+form{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+input{
+    width: 80%;
+    background-color: rgb(231,231,231);
+    border: none;
+    /* padding-top: 20px */
+}
+
+#msg{
+    padding: 70px 10px ; 
+    margin-bottom: 20px;
+}
+
+.fh6{
+    margin-top:10px;
+}
+
+#submit{
+    background-color: rgb(96,201,92);
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    
 }
