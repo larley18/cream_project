@@ -6,7 +6,7 @@
 }
 .navbrand{
     width: 50px; 
-    margin-left: 90px;
+   
 }
 
 #navbar{
@@ -14,36 +14,31 @@
     
 }
 
-.ulnav{
+/* #ulnav{
     list-style-type: none;
     display: flex;
     justify-content: left;
-}
+} */
 
-#navitem{
-    display: inline;
-}
+/* #navitem{ */
+    /* display: inline; */
+/* } */
 
-.navlink{
-    text-decoration: none;
+ #navlink{
+    
     color: white;
-    padding-left: 70px;   
-    font-weight: 700;
+    font-weight: bolder;
+
 }
 
- .navlink1{
-    text-decoration: none;
-    color: white;
-    padding-right: 70px;  
-    font-weight: 700;  
-} 
+ 
 
-.ulnav1{
+/* #ulnav1{
     list-style-type: none;
     display: flex;
     justify-content: right;
     
-}
+}  */
 
 #parasol{
     color: #fff;
